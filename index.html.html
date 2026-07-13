@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamza Alzakarneh | Electrical Engineer</title>
+  <meta name="description" content="Hamza Alzakarneh is an electrical engineer specializing in automotive PCB validation, power electronics, hardware design, and automated test systems.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Hamza Alzakarneh",
+    "jobTitle": "Electrical Engineer",
+    "description": "Electrical engineer specializing in automotive PCB validation, power electronics, hardware design, and automated test systems.",
+    "address": {"@type": "PostalAddress", "addressLocality": "Dearborn", "addressRegion": "MI", "addressCountry": "US"},
+    "email": "mailto:hamzazakarneh0@gmail.com",
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "University of Michigan"},
+      {"@type": "CollegeOrUniversity", "name": "Jordan University of Science and Technology"}
+    ],
+    "knowsAbout": ["PCB validation", "Power electronics", "Automotive electronics", "Circuit design", "Hardware testing", "ISO 26262", "DFMEA", "Python", "MATLAB", "Altium"]
+  }
+  </script>
+  <script>
+    tailwind.config = { darkMode: 'class', theme: { extend: {
+      colors: {
+        accent: { DEFAULT: 'rgb(var(--accent) / <alpha-value>)', light: 'rgb(var(--accent-light) / <alpha-value>)', dark: 'rgb(var(--accent-dark) / <alpha-value>)' },
+        ink: 'rgb(var(--ink) / <alpha-value>)',
+        paper: 'rgb(var(--paper) / <alpha-value>)'
+      },
+      fontFamily: { display: ['Fraunces', 'serif'], body: ['Inter', 'sans-serif'] }
+    } } }
+  </script>
+  <style>
+    :root { --accent: 0 119 184; --accent-light: 61 181 227; --accent-dark: 0 75 122; --ink: 11 35 55; --paper: 246 250 252; }
+    html.dark { --accent: 61 181 227; --accent-light: 126 211 244; --accent-dark: 0 119 184; --ink: 231 244 250; --paper: 7 22 34; color-scheme: dark; }
+    html { scroll-behavior: smooth; font-size: 112.5%; }
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, .font-display { font-family: 'Fraunces', serif; }
+    .fade-in { opacity: 0; transform: translateY(16px); transition: opacity .6s ease-out, transform .6s ease-out; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+    .project-card { min-height: 25rem; display: flex; flex-direction: column; }
+    .project-card > span:last-child { margin-top: auto; padding-top: 1.5rem; overflow-wrap: anywhere; }
+    ::selection { background: rgb(var(--accent) / .24); }
+  </style>
+  <script>
+    (() => {
+      const saved = localStorage.getItem('hamza-theme');
+      const dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.classList.toggle('dark', dark);
+    })();
+  </script>
+</head>
+<body class="bg-paper text-ink antialiased">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 bg-ink text-paper px-4 py-2 rounded">Skip to content</a>
+
+<header class="fixed top-0 inset-x-0 z-40 bg-paper/90 backdrop-blur border-b border-ink/10">
+  <nav class="max-w-5xl mx-auto flex items-center justify-between px-6 py-4">
+    <a href="#hero" class="font-display font-semibold text-lg">Hamza Alzakarneh</a>
+    <div class="hidden md:flex items-center gap-6 text-sm font-medium">
+      <a href="#about" class="hover:text-accent">About</a><a href="#experience" class="hover:text-accent">Experience</a>
+      <a href="#projects" class="hover:text-accent">Projects</a><a href="#education" class="hover:text-accent">Education</a><a href="#skills" class="hover:text-accent">Skills</a>
+    </div>
+    <div class="flex items-center gap-2">
+      <button id="theme-toggle" type="button" class="w-10 h-10 rounded-full border border-ink/15 hover:border-accent hover:text-accent transition-colors grid place-items-center" aria-label="Switch to dark mode" title="Toggle color theme">
+        <span class="dark:hidden" aria-hidden="true">☾</span><span class="hidden dark:inline" aria-hidden="true">☀</span>
+      </button>
+      <a href="#contact" class="text-sm font-semibold px-4 py-2 rounded-full bg-ink text-paper hover:bg-accent transition-colors">Get in touch</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section id="hero" class="pt-40 pb-24 px-6">
+    <div class="max-w-5xl mx-auto">
+      <p class="text-accent font-semibold tracking-wide uppercase text-sm mb-4">Hello, I'm</p>
+      <h1 class="font-display text-5xl sm:text-7xl font-semibold leading-tight max-w-4xl">Hamza Alzakarneh</h1>
+      <p class="mt-4 text-xl sm:text-2xl text-ink/70 font-medium max-w-4xl">Electrical Engineer · Embedded Systems · Hardware &amp; Software Development · Power Electronics.</p>
+      <p class="mt-5 text-sm sm:text-base font-semibold text-ink/50 uppercase tracking-wide">Dearborn, Michigan</p>
+      <p class="mt-7 text-lg sm:text-xl font-display italic text-ink/90 max-w-4xl">I engineer complex electronic systems from concept through validation - integrating circuit and PCB design, embedded and test software, hardware and software validation, failure analysis, and functional safety analysis.</p>
+      <div class="mt-9 flex flex-wrap gap-3">
+        <a href="mailto:hamzazakarneh0@gmail.com" class="px-5 py-3 rounded-full bg-accent text-white font-semibold hover:bg-accent-dark">Email me</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-10 px-6 border-y border-ink/10">
+    <div class="max-w-5xl mx-auto">
+      <p class="text-center text-xs font-semibold uppercase tracking-widest text-ink/40 mb-6 fade-in">Experience &amp; Education</p>
+      <div class="flex flex-wrap items-center justify-center gap-x-12 gap-y-4 fade-in">
+        <a href="https://www.lippert.com/" target="_blank" rel="noopener noreferrer" class="font-display text-xl font-semibold text-ink/50 hover:text-accent transition-colors">Lippert</a>
+        <a href="https://www.veoneer.com/" target="_blank" rel="noopener noreferrer" class="font-display text-xl font-semibold text-ink/50 hover:text-accent transition-colors">Veoneer</a>
+        <a href="https://evc.engin.umich.edu/" target="_blank" rel="noopener noreferrer" class="font-display text-xl font-semibold text-ink/50 hover:text-accent transition-colors">Electric Vehicle Center</a>
+        <a href="https://rackham.umich.edu/" target="_blank" rel="noopener noreferrer" class="font-display text-xl font-semibold text-ink/50 hover:text-accent transition-colors">University of Michigan</a>
+        <a href="https://www.nepco.com.jo/en/default.aspx" target="_blank" rel="noopener noreferrer" class="font-display text-xl font-semibold text-ink/50 hover:text-accent transition-colors">NEPCO</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-ink text-paper py-16 px-6">
+    <div class="max-w-5xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10">
+      <div class="fade-in"><p class="font-display text-lg font-semibold">Embedded Systems &amp; Software</p><p class="text-sm text-paper/60 mt-1">C/C++, MATLAB, Python, MCU control &amp; test software</p></div>
+      <div class="fade-in"><p class="font-display text-lg font-semibold">Hardware &amp; PCB Design</p><p class="text-sm text-paper/60 mt-1">Circuit design, schematics, PCB layout, DFT &amp; component selection</p></div>
+      <div class="fade-in"><p class="font-display text-lg font-semibold">Validation Automation</p><p class="text-sm text-paper/60 mt-1">ICT, FCT, EOL, automated testing &amp; production readiness</p></div>
+      <div class="fade-in"><p class="font-display text-lg font-semibold">Power Electronics</p><p class="text-sm text-paper/60 mt-1">DC-DC converters, inverters, PWM, motor control &amp; FOC</p></div>
+      <div class="fade-in"><p class="font-display text-lg font-semibold">Functional Safety</p><p class="text-sm text-paper/60 mt-1">ISO 26262, DFMEA/FMEA, fault analysis &amp; safety mechanisms</p></div>
+      <div class="fade-in"><p class="font-display text-lg font-semibold">Systems Engineering</p><p class="text-sm text-paper/60 mt-1">Requirements, interfaces, system integration, verification &amp; validation</p></div>
+    </div>
+  </section>
+
+  <section id="about" class="py-24 px-6">
+    <div class="max-w-3xl mx-auto fade-in">
+      <h2 class="font-display text-3xl font-semibold mb-6">About</h2>
+      <p class="text-lg leading-relaxed text-ink/80">I’m an electrical engineer with hands-on experience in automotive PCB validation, circuit and hardware design, automated test development, and electrical design optimization. I lead testing activities and work across design, manufacturing, quality, and supplier teams to move complex products toward reliable production.</p>
+      <p class="text-lg leading-relaxed text-ink/80 mt-4">My work spans custom testers and test benches, AOI/ICT/FCT/EOL automation, EV power converters, traction inverters, embedded communication interfaces, and medium-voltage power systems. I combine practical lab work with a strong foundation in power electronics, control, DFMEA, and functional safety.</p>
+    </div>
+  </section>
+
+  <section id="experience" class="py-24 px-6 bg-ink/[0.03]">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="font-display text-3xl font-semibold mb-12 fade-in">Experience</h2>
+      <div class="space-y-12 border-l-2 border-accent/30 pl-8">
+        <article class="fade-in relative"><span class="absolute -left-[2.55rem] top-1.5 w-3 h-3 rounded-full bg-accent"></span>
+          <p class="text-xs font-semibold uppercase tracking-wide text-ink/45">May 2025 — Present</p><h3 class="font-display text-xl font-semibold mt-1">Electrical Engineer</h3><p class="text-accent font-medium text-sm">Lippert · Michigan</p>
+          <p class="mt-4 text-ink/80 leading-relaxed">Lead validation, test development, and design-for-test activities for complex automotive PCB assemblies, managing testing priorities, task execution, and project timelines to support production launch and product quality.</p>
+          <ul class="mt-4 text-ink/80 leading-relaxed list-disc pl-5 space-y-2">
+            <li>Lead the testing team in defining ICT, FCT, and EOL validation strategies, including test coverage, fixture requirements, pass/fail limits, and production readiness plans.</li>
+            <li>Review schematics, PCB layouts, and circuit designs to validate functionality, improve testability, support DFMEA activities, and identify design or reliability risks.</li>
+            <li>Design and develop custom testers, simulators, test benches, and data-acquisition setups to validate product performance under functional and production conditions.</li>
+            <li>Develop and debug automated test software using Python, C-based platforms, and vendor-specific test environments for board-level validation and production testing.</li>
+            <li>Troubleshoot hardware, software, and production test failures by analyzing circuits, logs, communication signals, and measurement data to determine root cause and implement corrective actions.</li>
+            <li>Collaborate with design, manufacturing, quality, and supplier teams to resolve issues, improve PCB test coverage, modify designs, and support continuous improvement of test processes.</li>
+          </ul>
+        </article>
+        <article class="fade-in relative"><span class="absolute -left-[2.55rem] top-1.5 w-3 h-3 rounded-full bg-accent"></span>
+          <p class="text-xs font-semibold uppercase tracking-wide text-ink/45">May 2024 — May 2025</p><h3 class="font-display text-xl font-semibold mt-1">Research Assistant</h3><p class="text-accent font-medium text-sm">Electric Vehicle Center · Michigan</p>
+          <p class="mt-4 text-ink/80 leading-relaxed">Developed high-efficiency power electronics and control strategies for EV charging and traction applications, including bidirectional DC-DC converters, PMSM traction inverters, and advanced control optimization methods.</p>
+          <ul class="mt-4 text-ink/80 leading-relaxed list-disc pl-5 space-y-2">
+            <li>Designed and analyzed a high-efficiency bidirectional DC-DC converter for EV charging and energy storage applications, enabling controlled power flow between high-voltage and low-voltage DC buses.</li>
+            <li>Improved PMSM traction drive performance by refining inverter and control strategies to reduce current ripple, harmonic distortion, EMI, torque ripple, and switching losses.</li>
+            <li>Implemented Field-Oriented Control (FOC) for independent D-Q axis current regulation, improving torque response, speed control, and overall motor efficiency.</li>
+            <li>Optimized inverter modulation using SVPWM to improve DC bus utilization, enhance switching performance, and support smoother motor operation under variable load conditions.</li>
+            <li>Explored reinforcement learning and machine learning techniques as optional methods for converter control optimization, adaptive decision-making, and future EV power electronics applications.</li>
+          </ul>
+        </article>
+        <article class="fade-in relative"><span class="absolute -left-[2.55rem] top-1.5 w-3 h-3 rounded-full bg-accent"></span>
+          <p class="text-xs font-semibold uppercase tracking-wide text-ink/45">October 2023 — January 2025</p><h3 class="font-display text-xl font-semibold mt-1">Restraint Control System Engineer</h3><p class="text-accent font-medium text-sm">Veoneer · Michigan</p>
+          <p class="mt-4 text-ink/80 leading-relaxed">Oversaw golden samples for various types of sensors, ensuring accuracy and reliability. Engineered robust hardware-software interface specifications, ensuring flawless integration. Led collaboration with the software team to architect and optimize code for golden samples. Defined SPI, LIN, PCIe, Ethernet, and CAN command sequences, driving operational efficiency for golden samples. Partnered with application teams and OEMs to refine designs in response to tailored specifications. Defined and clarified design requirements in collaboration with the systems engineering team.</p>
+          <ul class="mt-4 text-ink/80 leading-relaxed list-disc pl-5 space-y-2">
+            <li>Delivered optimized circuit designs with Altium PCB, improving performance and reducing errors.</li>
+            <li>Improved design accuracy through in-depth analysis and adjustments using PCB Investigator.</li>
+            <li>Diagnosed and rectified issues by expertly soldering components, ensuring robust and reliable PCBs.</li>
+            <li>Designed hardware-software interface specifications, defined software logic, and developed fault-detection algorithms for Restraint Control Systems.</li>
+            <li>Conducted DFMEA to identify potential design risks, assess their impact, and implement mitigations to improve system reliability.</li>
+            <li>Increased circuit and system reliability through comprehensive pre-development testing, signal-integrity testing, design validation, and compliance with Functional Safety ISO 26262 and FMEA standards.</li>
+          </ul>
+        </article>
+        <article class="fade-in relative"><span class="absolute -left-[2.55rem] top-1.5 w-3 h-3 rounded-full bg-accent"></span>
+          <p class="text-xs font-semibold uppercase tracking-wide text-ink/45">May 2021 — May 2022</p><h3 class="font-display text-xl font-semibold mt-1">Power System Student Engineer</h3><p class="text-accent font-medium text-sm">National Electric Power Company · Jordan</p>
+          <p class="mt-4 text-ink/80 leading-relaxed">Supported design, testing, maintenance, and troubleshooting of MV electrical systems, including transformers, switchgear, underground cables, and substation components.</p>
+          <ul class="mt-4 text-ink/80 leading-relaxed list-disc pl-5 space-y-2">
+            <li>Performed open-circuit and short-circuit testing on 11/32 kV transformers to evaluate performance, identify faults, and support root-cause analysis of equipment issues.</li>
+            <li>Assisted with technical review and design of substation components, including single-line diagrams, schematics, wiring diagrams, and cable-routing layouts.</li>
+            <li>Conducted switchgear operation, inspection, and maintenance activities to support reliable medium-voltage system performance and safe energization.</li>
+            <li>Supported underground cable system design, testing, and maintenance to improve power-distribution reliability and reduce service disruptions.</li>
+            <li>Assisted field teams in troubleshooting electrical faults, equipment failures, and system-performance issues using test results, inspection data, and maintenance records.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-24 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="font-display text-3xl font-semibold mb-12 fade-in">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <a href="https://github.com/hamzaalumich/DSB-SC-SIGNAL-RECOVERY-MATLAB" target="_blank" rel="noopener noreferrer" class="project-card fade-in group p-8 rounded-2xl border border-ink/10 bg-paper hover:border-accent hover:shadow-lg transition-all">
+          <h3 class="font-display text-2xl font-semibold group-hover:text-accent transition-colors">DSB-SC Signal Recovery</h3>
+          <p class="mt-3 text-ink/80 leading-relaxed">MATLAB implementation of a double-sideband suppressed-carrier communication system, covering signal modulation, transmission, coherent demodulation, filtering, and recovery of the original message signal.</p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">MATLAB</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">DSB-SC</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Signal Processing</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Demodulation</span>
+          </div>
+          <span class="mt-5 inline-block text-sm font-semibold group-hover:text-accent">github.com/hamzaalumich/DSB-SC-SIGNAL-RECOVERY-MATLAB →</span>
+        </a>
+
+        <a href="https://github.com/hamzaalumich/BPSK_VOICE_TRANSMISSION_MATLAB" target="_blank" rel="noopener noreferrer" class="project-card fade-in group p-8 rounded-2xl border border-ink/10 bg-paper hover:border-accent hover:shadow-lg transition-all">
+          <h3 class="font-display text-2xl font-semibold group-hover:text-accent transition-colors">BPSK Voice Transmission</h3>
+          <p class="mt-3 text-ink/80 leading-relaxed">MATLAB simulation of an end-to-end digital voice communication chain using binary phase-shift keying, including audio processing, modulation, channel transmission, demodulation, and voice reconstruction.</p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">MATLAB</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">BPSK</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Digital Communications</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Audio Processing</span>
+          </div>
+          <span class="mt-5 inline-block text-sm font-semibold group-hover:text-accent">github.com/hamzaalumich/BPSK_VOICE_TRANSMISSION_MATLAB →</span>
+        </a>
+
+        <a href="https://github.com/hamzaalumich/esp32-touchscreen-tic-tac-toe" target="_blank" rel="noopener noreferrer" class="project-card fade-in group p-8 rounded-2xl border border-ink/10 bg-paper hover:border-accent hover:shadow-lg transition-all">
+          <h3 class="font-display text-2xl font-semibold group-hover:text-accent transition-colors">ESP32 Touchscreen Tic-Tac-Toe</h3>
+          <p class="mt-3 text-ink/80 leading-relaxed">Interactive embedded Tic-Tac-Toe game built for an ESP32 with a touchscreen interface, combining graphical display control, touch-input handling, game-state logic, and responsive user interaction.</p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">ESP32</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Embedded C++</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Touchscreen</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Embedded Systems</span>
+          </div>
+          <span class="mt-5 inline-block text-sm font-semibold group-hover:text-accent">github.com/hamzaalumich/esp32-touchscreen-tic-tac-toe →</span>
+        </a>
+
+        <a href="https://github.com/hamzaalumich/dual-active-bridge-bidirectional-converter" target="_blank" rel="noopener noreferrer" class="project-card fade-in group p-8 rounded-2xl border border-ink/10 bg-paper hover:border-accent hover:shadow-lg transition-all">
+          <h3 class="font-display text-2xl font-semibold group-hover:text-accent transition-colors">Dual-Active-Bridge Bidirectional Converter</h3>
+          <p class="mt-3 text-ink/80 leading-relaxed">Model and analysis of an isolated dual-active-bridge DC-DC converter for bidirectional power transfer, with emphasis on switching control, power-flow behavior, and high-efficiency energy conversion.</p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Power Electronics</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">DAB Converter</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Bidirectional DC-DC</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Simulation</span>
+          </div>
+          <span class="mt-5 inline-block text-sm font-semibold group-hover:text-accent">github.com/hamzaalumich/dual-active-bridge-bidirectional-converter →</span>
+        </a>
+
+        <a href="https://github.com/hamzaalumich/power-generation-scheduling-optimization" target="_blank" rel="noopener noreferrer" class="project-card fade-in group p-8 rounded-2xl border border-ink/10 bg-paper hover:border-accent hover:shadow-lg transition-all">
+          <h3 class="font-display text-2xl font-semibold group-hover:text-accent transition-colors">Power Generation Scheduling Optimization</h3>
+          <p class="mt-3 text-ink/80 leading-relaxed">Optimization model for scheduling electrical power generation to satisfy system demand while considering generator operating constraints and minimizing total production cost.</p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Power Systems</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Optimization</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Economic Dispatch</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">Generation Scheduling</span>
+          </div>
+          <span class="mt-5 inline-block text-sm font-semibold group-hover:text-accent">github.com/hamzaalumich/power-generation-scheduling-optimization →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="py-24 px-6">
+    <div class="max-w-5xl mx-auto"><h2 class="font-display text-3xl font-semibold mb-12 fade-in">Education</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="fade-in p-8 rounded-2xl border border-ink/10 bg-paper"><p class="text-accent text-sm font-semibold">2026 · GPA 3.95 / 4.00</p><h3 class="font-display text-2xl font-semibold mt-2">M.S. Electrical Engineering</h3><p class="mt-2 text-ink/70">University of Michigan</p></div>
+        <div class="fade-in p-8 rounded-2xl border border-ink/10 bg-paper"><p class="text-accent text-sm font-semibold">2023 · GPA 4.09 / 4.20</p><h3 class="font-display text-2xl font-semibold mt-2">B.S. Electrical Engineering</h3><p class="mt-2 text-ink/70">Jordan University of Science and Technology</p><p class="mt-3 text-sm font-semibold">Ranked first in class</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="py-24 px-6 bg-ink/[0.03]">
+    <div class="max-w-5xl mx-auto"><h2 class="font-display text-3xl font-semibold mb-12 fade-in">Technical Skills</h2>
+      <div class="grid md:grid-cols-2 gap-x-12 gap-y-8">
+        <div class="fade-in"><h3 class="font-display font-semibold text-accent">Hardware &amp; PCB</h3><p class="mt-2 text-ink/80 leading-relaxed">Altium, EasyEDA, Eagle, PCB123, PCB Investigator, circuit design, schematic review, PCB layout, SMT soldering, AOI, ICT, FCT, EOL</p></div>
+        <div class="fade-in"><h3 class="font-display font-semibold text-accent">Power Electronics &amp; Control</h3><p class="mt-2 text-ink/80 leading-relaxed">DC-DC converters, PMSM inverters, FOC, SVPWM, MATLAB/Simulink, PSIM, PSpice, LTspice, Mathcad</p></div>
+        <div class="fade-in"><h3 class="font-display font-semibold text-accent">Programming &amp; Embedded</h3><p class="mt-2 text-ink/80 leading-relaxed">Python, C, C++, C#, .NET, Assembly, VHDL, Verilog, FPGA, DSP, LabVIEW</p></div>
+        <div class="fade-in"><h3 class="font-display font-semibold text-accent">Automotive Systems</h3><p class="mt-2 text-ink/80 leading-relaxed">CAN, LIN, Ethernet, PCIe, CANalyzer, PCAN, ISO 26262, DFMEA/FMEA, fault detection, DOORS, Codebeamer</p></div>
+        <div class="fade-in"><h3 class="font-display font-semibold text-accent">Automation</h3><p class="mt-2 text-ink/80 leading-relaxed">PLC, Ladder Logic, Siemens TIA Portal, SIMATIC, HMI, SCADA, Allen-Bradley PLC, WinCC, CNC</p></div>
+        <div class="fade-in"><h3 class="font-display font-semibold text-accent">Engineering Tools</h3><p class="mt-2 text-ink/80 leading-relaxed">AutoCAD, Revit, DiaLUX, Proteus, Siemens PSS/E, GitHub, GitKraken, Bitbucket, Jira PLM, PTC Windchill</p></div>
+        <div class="fade-in"><h3 class="font-display font-semibold text-accent">AI &amp; Productivity</h3><p class="mt-2 text-ink/80 leading-relaxed">Generative AI (GenAI), prompt engineering, Microsoft Copilot, Microsoft Teams, Smartsheet, Microsoft Excel, Word, PowerPoint, Outlook</p></div>
+        <div class="fade-in"><h3 class="font-display font-semibold text-accent">Project Management &amp; Collaboration</h3><p class="mt-2 text-ink/80 leading-relaxed">Project coordination, task prioritization, timeline management, cross-functional teamwork, requirements management, root-cause analysis</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-24 px-6 bg-ink text-paper">
+    <div class="max-w-3xl mx-auto text-center fade-in"><h2 class="font-display text-3xl font-semibold">Let’s build something reliable.</h2><p class="mt-4 text-paper/65">Open to conversations about electrical engineering, automotive hardware, PCB validation, and power electronics.</p>
+      <div class="mt-8 flex flex-wrap justify-center gap-6 text-lg font-medium"><a href="mailto:hamzazakarneh0@gmail.com" class="hover:text-accent-light">Email</a><a href="https://www.linkedin.com/search/results/people/?keywords=Hamza%20Alzakarneh" target="_blank" rel="noopener noreferrer" class="hover:text-accent-light">LinkedIn</a></div>
+    </div>
+  </section>
+</main>
+
+<footer class="py-6 text-center text-sm text-ink/40">© 2026 Hamza Alzakarneh</footer>
+<script>
+  const observer = new IntersectionObserver(entries => entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } }), { threshold: .12 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  const themeToggle = document.getElementById('theme-toggle');
+  const updateThemeLabel = () => {
+    const dark = document.documentElement.classList.contains('dark');
+    themeToggle.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+  };
+  updateThemeLabel();
+  themeToggle.addEventListener('click', () => {
+    const dark = document.documentElement.classList.toggle('dark');
+    localStorage.setItem('hamza-theme', dark ? 'dark' : 'light');
+    updateThemeLabel();
+  });
+</script>
+</body>
+</html>
